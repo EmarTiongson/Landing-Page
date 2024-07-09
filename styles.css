@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 1.5;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+}
+
+.nav-container{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul{
+    display: flex;
+   
+}
+
+.nav ul li{
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-container{
+    background-color: #1F2937;
+    display: flex;
+}
+
+.hero-text{
+    font-size: 48px;
+    font-weight: extra bold;
+    color: #F9FAF8 ;
+}
+
+.Hero-main p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: extra bold;
+}
+
+.quotes-container{
+    background-color: #E5E7EB;
+}
+
+.quotes-container p {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+.footer{
+    background-color: #1F2937;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.cta, .call-to-action{
+    background-color: #3882F6;
+}
+
+.header-container img{
+    max-width: 250px;
+    height: auto;
+}
+
+.information{
+   display: flex;
+   flex-direction: column;
+}
+
+.images-container{
+    display: flex;
+    text-wrap: 200px;
+}
+
+.information img {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.info-title{
+    align-self: center;
+}
