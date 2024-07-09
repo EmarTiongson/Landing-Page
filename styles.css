@@ -167,7 +167,7 @@ a:hover{
 .cta-container{
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 850px;
     height: 100px;
     
 }
@@ -188,6 +188,7 @@ a:hover{
     align-self:center;
     padding: 10px;
 }
+
 
 .call{
     font-size: 24px;
